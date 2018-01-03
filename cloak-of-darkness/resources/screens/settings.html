@@ -1,0 +1,41 @@
+<div class="screen settings-screen" data-type="screen">
+    <div class="screen-background"></div>
+    <div class="settings screen-content">
+        <div class="box">
+            <div class="item" data-purpose="textSpeed" tabindex="0">
+                <label>Text Speed:</label>
+                <input type="range" data-type="setting" data-name="textSpeed" value="{textSpeed}" />
+            </div>
+        </div>
+        <div class="box">
+            <div class="item" data-purpose="soundVolume" tabindex="0">
+                <label>Sound Volume:</label>
+                <input type="range" data-type="setting" data-name="soundVolume" value="{soundVolume}" />
+            </div>
+            <div class="item" data-purpose="ambienceVolume" tabindex="0">
+                <label>Ambience Volume:</label>
+                <input type="range" data-type="setting" data-name="ambienceVolume" value="{ambienceVolume}" />
+            </div>
+            <div class="item" data-purpose="musicVolume" tabindex="0">
+                <label>Music Volume:</label>
+                <input type="range" data-type="setting" data-name="musicVolume" value="{musicVolume}" />
+            </div>
+        </div>
+        <div data-type="menu" class="screen-buttons">
+            <div
+                class="button"
+                data-focus-mode="screen"
+                tabindex="0"
+                role="button"
+                data-type="menu-item"
+                data-target="saveSettings">Save</div>
+            <div
+                class="button"
+                data-focus-mode="screen"
+                tabindex="0"
+                role="button"
+                data-type="menu-item"
+                data-target="back">Back</div>
+        </div>
+    </div>
+</div>
